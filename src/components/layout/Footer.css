@@ -1,0 +1,22 @@
+.Footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 65px;
+    background-color: #18A0FB;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+.Footer button{
+    padding-right: 20px;
+    border: none;
+    background: 0;
+    color: #fff;
+    font-size: 1.2em;
+}

@@ -1,0 +1,54 @@
+.LoginForm {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form {
+    padding: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.LoginForm .Form input{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border-color: #18A0FB;
+    border-radius: 10px;
+}
+
+.LoginForm .Form input:focus{
+    border-color: #18A0FB;
+    height: 35px;
+}
+
+.Form label {
+    margin: 5px;
+    color: #18A0FB;
+    font-weight: 600;
+} 
+
+.LoginButton{
+    margin-top: 10px;
+    align-self: center;
+}
+
+.LoginButton button{
+    width: 150px;
+    height: 30px;
+    background-color: #18A0FB;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF; 
+}
+
+.LoginButton button:hover{
+    width: 160px;
+    height: 35px;
+}
