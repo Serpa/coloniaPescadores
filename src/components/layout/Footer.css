@@ -13,10 +13,11 @@
     right:0;
 }
 
-.Footer button{
+.Footer a{
     padding-right: 20px;
     border: none;
     background: 0;
     color: #fff;
     font-size: 1.2em;
+    text-decoration: none;
 }

@@ -1,0 +1,17 @@
+.Btn {
+    font-size: 1.3rem;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.Btn .del{
+   color: red;
+}
+
+.Btn .edit{
+   color: blue;
+}
+
+.Btn:hover{
+    font-size: 1.5rem;
+}

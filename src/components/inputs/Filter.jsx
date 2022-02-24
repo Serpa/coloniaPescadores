@@ -1,0 +1,18 @@
+import React from "react";
+import styled from 'styled-components';
+
+export default styled.input`
+height: 32px;
+width: 200px;
+border-radius: 3px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+border: 1px solid #e5e5e5;
+padding: 0 32px 0 16px;
+
+&:hover {
+    cursor: pointer;
+}
+`

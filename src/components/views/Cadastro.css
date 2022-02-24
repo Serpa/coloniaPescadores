@@ -1,0 +1,20 @@
+.Cadastro fieldset {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #18A0FB;
+    border-radius: 5px;
+    display: grid;
+    color: #18A0FB;
+}
+
+.Cadastro fieldset legend {
+    font-size: 1.5rem;
+}
+
+.Cadastro .ok{
+    border: solid #00FF00;
+}
+
+.Cadastro .error{
+    border: solid #ff0000;
+}
